@@ -1,0 +1,30 @@
+/* ANGHELOIU George-Bogdan - grupa 314CB */
+
+Task A:
+    Se adauga in coada waiting task-urile respectand ordinea din enunt si folosind operatii pe cozi.
+
+Task B:
+    Se cauta ID-ul task-ului in fiecare din cele 3 cozi (waiting, running, finished) si se afiseaza corespunzator.
+
+Task C:
+    Se cauta in stiva de Thread-uri pe cel cu ID-ul dat. Daca nu se gaseste, se cauta in coada running
+    si se afiseaza ce se cere.
+
+Task D:
+    Se muta coada waiting intr-o coada auxiliara si se printeaza simultan. La final, se muta inapoi coada auxiliara
+    in coada waiting.
+
+Task E:
+    Se muta coada running intr-o coada auxiliara si se printeaza simultan. La final, se muta inapoi coada auxiliara
+    in coada running.
+
+Task F:
+    Se muta coada finished intr-o coada auxiliara si se printeaza simultan. La final, se muta inapoi coada auxiliara
+    in coada finished.
+
+Task G:
+    Se adauga la timpul task-urilor, se muta task-urile intre cozi in functie de conditiile date si se
+    asigneaza cate un Thread fiecarui task. Se verifica atatea task-uri cat permit Thread-urile.
+
+Task H:
+    Se termina executia, se elibereaza memoria si se calculeaza timpul total.
